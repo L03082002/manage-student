@@ -1,0 +1,70 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+BorderPane {
+	-fx-background-color: white;
+}
+
+#title {
+	-fx-font-size: 24px;
+	-fx-fill: #b0a876;
+}
+
+/* Hình nền cho 3 nút */
+#insertBtn {
+	-fx-background-image: url(img/plus.png);
+}
+
+#deleteBtn {
+	-fx-background-image: url(img/cross.png);
+}
+
+#clearBtn {
+	-fx-background-image: url(img/reload.png);
+}
+
+/* Style chung */
+.button {
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: left center;
+	-fx-padding: 8 10 8 30px;
+	-fx-background-color: #DAD5AB;
+}
+
+.button:hover {
+	-fx-background-color: #C3BA85;
+}
+
+/* Style cho TableView */
+.table-row-cell:hover {
+	-fx-cursor: hand;
+}
+
+.table-row-cell:selected {
+	-fx-text-background-color: black;
+	-fx-font-weight: bold;
+}
+
+.table-row-cell:focused {
+	-fx-table-cell-border-color: transparent;
+}
+
+.table-row-cell:odd {
+	-fx-background-color: #F0F0CB;
+}
+
+.table-row-cell:even {
+	-fx-background-color: #FEFFE2;
+}
+
+.radio-button:selected {
+	-fx-font-weight: bold;
+}
+
+
+.table-row-cell:empty {
+    -fx-background-color: white;
+}
+ 
+.table-row-cell:empty .table-cell {
+    -fx-border-width: 0px;
+}
